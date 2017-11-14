@@ -1,0 +1,6 @@
+Nombre: David
+Nota 1: 9
+Nota 2: 2
+Nota 3: 5
+Nota 4: 1
+Nota 5: 1

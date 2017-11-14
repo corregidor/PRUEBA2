@@ -1,0 +1,6 @@
+Nombre: Mai
+Nota 1: 10
+Nota 2: 10
+Nota 3: 9
+Nota 4: 9
+Nota 5: A

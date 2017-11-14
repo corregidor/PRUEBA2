@@ -1,0 +1,6 @@
+Nombre: JP
+Nota 1: 10
+Nota 2: 10
+Nota 3: 10
+Nota 4: 10
+Nota 5: 10
