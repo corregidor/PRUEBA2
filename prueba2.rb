@@ -88,7 +88,12 @@ def pantalla(data_eval)
 	opt = option_of_menu().to_i
 		case opt
 		when 1
-			archiv_x_alumno(data_eval)
+			begin
+				archiv_x_alumno(data_eval)
+				rescue Exception => msg  
+				puts 'algo salio mal:'
+				puts msg
+			end
 			opt = ''
 		when 2
 			alumno_ausente(data_eval)
