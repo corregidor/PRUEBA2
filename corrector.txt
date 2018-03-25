@@ -31,20 +31,22 @@ c) Resolución del problema: 0.4
 	que lo solicitado, pero se considera ya que el alumno demuestra
 	poder generar archivos en forma persistente.
 
-Item 3 : Conteo de inasistencias totales por alumno en pantalla
+Item 3 : Conteo de inasistencias totales en pantalla
 
 a) Indentación correcta: 0.5
 b) Correcto uso del lenguaje: 0.5 
 c) Resolución del problema: 1.0
 	Comentarios:
-	Muy bien resuelto el problema, excelente código
+	Muy bien resuelto el problema, excelente código.
+	No se especifica que debe de ser por alumno, pero es más complejo de esta manera
+	así es que se considera buena la respuesta.
 
 Item 4 : Alumnos aprobados por pantalla
 
 a) Indentación correcta: 0.5
 b) Correcto uso del lenguaje: 0.4
 	Comentarios: Se debe utilizar && en vez de and y || en vez de or(está en los videos)
-c) Resolución del problema: 1.0
+c) Resolución del problema: 0.9
 	Comentarios:
 	Solución interesante, no se ajusta a lo solicitado,
 	ya que debía por defecto ser un 5.0, sin embargo la
