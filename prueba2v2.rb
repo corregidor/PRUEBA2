@@ -30,6 +30,7 @@ def leer_archivo(nombrearchivo)
 	end
 
 	return aux
+	#puede ir sin return
 end
 # leer_archivo("data.csv")
 
@@ -73,14 +74,17 @@ def opt_nota_para_aprobar()
 end
 
 def promedio_total(data, nota_para_aprobar)
+	#la nota debe ser por defecto 5.0, no es mala idea parametrizar
 	nota = 0
 	data.each do |nombre, not1, not2, not3, not4, not5|
 		puts "Nombre: #{nombre}"
 		nota = (not1.to_f + not2.to_f + not3.to_f + not4.to_f + not5.to_f)
 		prom = nota / 5
+		#debiera de contar el array y no suponerlo escrito como 5
 		puts "Promedio: #{prom} "
 
 		if prom >= nota_para_aprobar and nota_para_aprobar != ''
+			#and no es una buena opcion, es mejor utilizar &&
 			puts 'APROBADO PERRITO!'
 		else
 			puts 'ESTAMOS EN LA B!!!!'
@@ -105,6 +109,7 @@ def pantalla(data_eval)
 				rescue Exception => msg  
 				puts 'algo salio mal:'
 				puts msg
+				#excelente incluir un rescue!
 			end
 			opt = ''
 		when 2

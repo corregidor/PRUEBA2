@@ -1,0 +1,67 @@
+La prueba consta de 5 items
+Cada item vale 2 puntos
+Dentro de cada item se espera:
+	a) Indentacion correcta : 0.5 pt
+	b) Correcto uso del lenguaje: 0.5 pt 
+	c) Resolución del problema: 1 pt
+
+Se corrigió desde prueva2v2.rb
+
+Item 1 : Menu
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.5 
+	Comentarios: 
+	No se considera para esta prueba, pero los nombres de las variables y métodos deben de ir en inglés
+c) Resolución del problema: 0.7
+	Comentarios:
+	Excelente iniciativa de incluir una excepción al código
+	No resuelve el problema de volver a ingresar al menu en caso
+	que el numero ingresado no corresponda al del menú
+
+Item 2 : Promedios por alumnos en archivo adicional
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.5 
+c) Resolución del problema: 0.4
+	Comentarios:
+	Se generan varios archivos, lo que no corresponde a lo solicitado,
+	ya que se pedia un unico archivo con los promedios de cada alumno,
+	existe además un descuento ya que lo desarrollado es más sencillo
+	que lo solicitado, pero se considera ya que el alumno demuestra
+	poder generar archivos en forma persistente.
+
+Item 3 : Conteo de inasistencias totales por alumno en pantalla
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.5 
+c) Resolución del problema: 1.0
+	Comentarios:
+	Muy bien resuelto el problema, excelente código
+
+Item 4 : Alumnos aprobados por pantalla
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.4
+	Comentarios: Se debe utilizar && en vez de and y || en vez de or(está en los videos)
+c) Resolución del problema: 1.0
+	Comentarios:
+	Solución interesante, no se ajusta a lo solicitado,
+	ya que debía por defecto ser un 5.0, sin embargo la
+	alternativa es una solución mucho más compleja 
+	por lo que no hay descuento en el puntaje.
+	Ahora considerar que solo los aprobados se mostrarán por pantalla 
+
+Item 5 : Salir
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.5	
+c) Resolución del problema: 1.0
+	Comentarios:
+	Se logra salir del sistema 
+
+Comentarios finales: código muy ordenado, un plus que coloque excepciones a el,
+utiliza código simplificado, de calidad. Falta entender bien lo solicitado, pero 
+se nota un entendimiento de los conceptos.
+
+  
